@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  color:#24292e;
+  font-family:Meiryo;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+  display:block;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width:60%;
+  margin:0 auto;
+}
+
+/*ヘッダー*/
+
+.space-top{
+  padding:100px 0;
+}
+
+.header-title{
+  font-size:32px;
+  color: #292929;;
+  font-weight:normal;
+}
+
+.nav li{
+  font-size:14px;
+  padding:15px;
+}
+
+.nav a:hover{
+  color:#ccc;
+}
+
+
+.nav{
+  display: flex;
+}
+
+.header-memo{
+  display: flex;
+  justify-content:space-between;
+}
+
+.fa-instagram{
+  margin:18px 0 0 15px;
+}
+
+/*メイン画像パート*/
+
+.build{
+  height:420px;
+  max-width:1920px;
+  width:100%;
+  object-fit:cover;
+  margin-bottom:90px;
+}
+
+/*アバウトパート*/
+
+.heading{
+  text-align: center;
+  font-size:24px;
+  margin-bottom:70px;
+}
+
+.about-wrapper p{
+  margin-bottom:20px;
+  font-size:14px;
+}
+
+.main{
+  margin-bottom:130px;
+}
+
+/*ワークス部分*/
+
+.image-collect{
+  flex-wrap:wrap;
+}
+
+.part{
+  width:32%;
+  padding:10px;
+}
+
+/*ニュース部分*/
+
+.blog{
+  display: flex;
+  border-top:1px solid #ddd;
+}
+
+.mgr{
+  width:20%;
+  margin-right:20px;
+  font-size: 14px;
+  padding:15px 0;
+}
+
+.mgl{
+  width:80%;
+  font-size:14px;
+  padding:15px 0;
+}
+
+.bottom{
+  border-bottom:1px solid #ddd;
+}
+
+
+
+/*コンタクト部分*/
+
+.flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+.flex p{
+  font-size:14px;
+  padding-bottom: 30px;
+}
+
+input,textarea{
+  width:84%;
+  margin-bottom:8px;
+  border:1px solid #ccc;
+}
+
+textarea{
+  height:160px;
+}
+
+.send{
+  width:200px;
+  height:50px;
+  margin-top:30px;
+  background-color:black;
+  color:white;
+}
+
+.send:hover{
+  cursor:pointer;
+  background-color: white;;
+  color:black;
+  border:1px solid black;
+}
+
+
+.contact-wrapper{
+  text-align: center;
+}
+
+footer{
+  height: 30px;
+  color:white;
+  background-color: #24292e;
+  text-align: center;
+}
+
+footer p{
+  font-size:10px;
+  padding-top:10px;
+}
+
